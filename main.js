@@ -12,7 +12,7 @@ inputs[i].addEventListener("focusout", function(){
         else if(inputs[i].value !== ''){
             inputs[i].classList.remove("error-img");
             msgErrors[i].style.display = "none";
-            inputs[i].style.border = "1px solid lightgray"
+            inputs[i].style.border = "1px solid lightgray";
         }
     })
 }
